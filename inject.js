@@ -1,5 +1,8 @@
 (function() {
 
+    //Below this line is the injected script
+    //you can edit easily as an usual javascript on website
+
 	// just place a div at top right
 	var div = document.createElement('div');
 	div.style.position = 'fixed';
