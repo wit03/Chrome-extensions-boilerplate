@@ -11,9 +11,10 @@
         "scripts": [
             "background.js"
         ],
-        "persistent": false
+        "persistent": true
     },
-    "page_action": {
+    "browser_action": {
+        "default_title": "Inject!",
         "default_popup": "popup.html",
         "default_icon": {
             "16": "images/get_started16.png",
@@ -28,5 +29,16 @@
         "48": "images/get_started48.png",
         "128": "images/get_started128.png"
     },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://*/*",
+                "http://*/*"
+            ],
+            "js": [
+                "inject.js"
+            ]
+        }
+    ],
     "manifest_version": 2
 }
