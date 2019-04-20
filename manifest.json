@@ -38,6 +38,9 @@
             ],
             "js": [
                 "inject.js"
+            ],
+            "css": [
+                "inject.css"
             ]
         }
     ],

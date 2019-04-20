@@ -6,7 +6,7 @@
 	// just place a div at top right
 	//var data = []
 
-	alert('inserted self... giggity');
+	/*alert('inserted self... giggity');
 	var cSite = window.location.href;
 	var img = document.getElementsByTagName("img, a, i");
 	var data = []
@@ -53,7 +53,7 @@
 		}
 		console.log('twitter:' + data[1])
 	}
-
+	*/
 
 
 	//test script
